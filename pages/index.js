@@ -8,12 +8,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Quotes Lists | Home</title>
+        <title>Quotes | Home</title>
         <meta name='keywords' content='quotes' />
       </Head>
       <div>
-        <h1 className={styles.title}>Homepage</h1>
-        <p className={styles.text}>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <h1 className={styles.title}>Welcome to Quotes World</h1>
+        <p className={styles.text}>Quotes can help generate ideas within brainstorming, which can influence the ideas within the piece. They can send you in new directions by presenting the ideas of others. Finally, quotes can be a succinct way to fuel a writer as they pull a piece together, which will not distract them from writing for too long</p>
       </div>
     </>
   )

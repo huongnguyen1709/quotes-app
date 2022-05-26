@@ -29,7 +29,7 @@ const Details = ({quote}) => {
 
     return ( 
         <div>
-            <h1>{quote.content}</h1>
+            <h2>{quote.content}</h2>
             <h3>{quote.author}</h3>
             <p>tags: {quote.tags.join(", ")}</p>
         </div>
